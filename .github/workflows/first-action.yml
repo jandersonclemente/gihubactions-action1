@@ -1,0 +1,10 @@
+name: First Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubutun-later
+    steps:
+      - name: Print greeting
+        run: echo "First action"
+      - name: Print greeting
+        run: echo "Bye"
